@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* one_hand_memoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* one_hand_memoTests.m */; };
+		00E356F31AD99517003FC87E /* memoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* memoTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* one_hand_memoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* one_hand_memoTests.m */; };
-		56763A3514AB8C38EFEE4EC2 /* libPods-one_hand_memo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 334FA4499BEB79D2A47283E1 /* libPods-one_hand_memo.a */; };
-		65642554C1C8CE6F92F45D14 /* libPods-one_hand_memo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F232CFA1A9DFAB0D1EAF7 /* libPods-one_hand_memo-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* memoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* memoTests.m */; };
+		56763A3514AB8C38EFEE4EC2 /* libPods-memo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 334FA4499BEB79D2A47283E1 /* libPods-memo.a */; };
+		65642554C1C8CE6F92F45D14 /* libPods-memo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F232CFA1A9DFAB0D1EAF7 /* libPods-memo-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9A4748A27BCB45B7F0CA5CDE /* libPods-one_hand_memo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4CEF66128B0763A2A8BDBB /* libPods-one_hand_memo-tvOS.a */; };
-		B4EFA462CB04F134236653DB /* libPods-one_hand_memo-one_hand_memoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0796FC033CFFB05BF450ADA9 /* libPods-one_hand_memo-one_hand_memoTests.a */; };
+		9A4748A27BCB45B7F0CA5CDE /* libPods-memo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4CEF66128B0763A2A8BDBB /* libPods-memo-tvOS.a */; };
+		B4EFA462CB04F134236653DB /* libPods-memo-memoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0796FC033CFFB05BF450ADA9 /* libPods-memo-memoTests.a */; };
 		D2CDDBF1261ED6AE002BEFCA /* NativeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CDDBF0261ED6AE002BEFCA /* NativeTextView.m */; };
 		D2CDDBF8261ED6C6002BEFCA /* NativeTextViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CDDBF7261ED6C6002BEFCA /* NativeTextViewManager.m */; };
 /* End PBXBuildFile section */
@@ -30,47 +30,47 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = one_hand_memo;
+			remoteInfo = memo;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "one_hand_memo-tvOS";
+			remoteInfo = "memo-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		0095FB2E73C109639CAC36E1 /* Pods-one_hand_memo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one_hand_memo.release.xcconfig"; path = "Target Support Files/Pods-one_hand_memo/Pods-one_hand_memo.release.xcconfig"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* one_hand_memoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = one_hand_memoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0095FB2E73C109639CAC36E1 /* Pods-memo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo.release.xcconfig"; path = "Target Support Files/Pods-memo/Pods-memo.release.xcconfig"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* memoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* one_hand_memoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = one_hand_memoTests.m; sourceTree = "<group>"; };
-		0796FC033CFFB05BF450ADA9 /* libPods-one_hand_memo-one_hand_memoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-one_hand_memo-one_hand_memoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F7105C83B04FAA93C45ABBC /* Pods-one_hand_memo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one_hand_memo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-one_hand_memo-tvOSTests/Pods-one_hand_memo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* one_hand_memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = one_hand_memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = one_hand_memo/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = one_hand_memo/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = one_hand_memo/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = one_hand_memo/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = one_hand_memo/main.m; sourceTree = "<group>"; };
-		275DD77EF894423D576590B5 /* Pods-one_hand_memo-one_hand_memoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one_hand_memo-one_hand_memoTests.release.xcconfig"; path = "Target Support Files/Pods-one_hand_memo-one_hand_memoTests/Pods-one_hand_memo-one_hand_memoTests.release.xcconfig"; sourceTree = "<group>"; };
-		283D1732252738227A7EB8AA /* Pods-one_hand_memo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one_hand_memo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-one_hand_memo-tvOSTests/Pods-one_hand_memo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* one_hand_memo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "one_hand_memo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* one_hand_memo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "one_hand_memo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		334FA4499BEB79D2A47283E1 /* libPods-one_hand_memo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-one_hand_memo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		370113B04DC537165E549387 /* Pods-one_hand_memo-one_hand_memoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one_hand_memo-one_hand_memoTests.debug.xcconfig"; path = "Target Support Files/Pods-one_hand_memo-one_hand_memoTests/Pods-one_hand_memo-one_hand_memoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DC8DDD636FC45498DC1702C /* Pods-one_hand_memo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one_hand_memo.debug.xcconfig"; path = "Target Support Files/Pods-one_hand_memo/Pods-one_hand_memo.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = one_hand_memo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A2E599FAB6678DE67E56D33D /* Pods-one_hand_memo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one_hand_memo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-one_hand_memo-tvOS/Pods-one_hand_memo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A30F232CFA1A9DFAB0D1EAF7 /* libPods-one_hand_memo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-one_hand_memo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B07FC3059BA2E655FB19FBD8 /* Pods-one_hand_memo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one_hand_memo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-one_hand_memo-tvOS/Pods-one_hand_memo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* memoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoTests.m; sourceTree = "<group>"; };
+		0796FC033CFFB05BF450ADA9 /* libPods-memo-memoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-memo-memoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7105C83B04FAA93C45ABBC /* Pods-memo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-memo-tvOSTests/Pods-memo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = memo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = memo/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = memo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = memo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = memo/main.m; sourceTree = "<group>"; };
+		275DD77EF894423D576590B5 /* Pods-memo-memoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo-memoTests.release.xcconfig"; path = "Target Support Files/Pods-memo-memoTests/Pods-memo-memoTests.release.xcconfig"; sourceTree = "<group>"; };
+		283D1732252738227A7EB8AA /* Pods-memo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-memo-tvOSTests/Pods-memo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* memo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "memo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* memo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "memo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		334FA4499BEB79D2A47283E1 /* libPods-memo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-memo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		370113B04DC537165E549387 /* Pods-memo-memoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo-memoTests.debug.xcconfig"; path = "Target Support Files/Pods-memo-memoTests/Pods-memo-memoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DC8DDD636FC45498DC1702C /* Pods-memo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo.debug.xcconfig"; path = "Target Support Files/Pods-memo/Pods-memo.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = memo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2E599FAB6678DE67E56D33D /* Pods-memo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-memo-tvOS/Pods-memo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A30F232CFA1A9DFAB0D1EAF7 /* libPods-memo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-memo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07FC3059BA2E655FB19FBD8 /* Pods-memo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-memo-tvOS/Pods-memo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		D2CDDBEF261ED6AE002BEFCA /* NativeTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeTextView.h; sourceTree = "<group>"; };
 		D2CDDBF0261ED6AE002BEFCA /* NativeTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeTextView.m; sourceTree = "<group>"; };
 		D2CDDBF6261ED6C6002BEFCA /* NativeTextViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeTextViewManager.h; sourceTree = "<group>"; };
 		D2CDDBF7261ED6C6002BEFCA /* NativeTextViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeTextViewManager.m; sourceTree = "<group>"; };
-		DF4CEF66128B0763A2A8BDBB /* libPods-one_hand_memo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-one_hand_memo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4CEF66128B0763A2A8BDBB /* libPods-memo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-memo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4EFA462CB04F134236653DB /* libPods-one_hand_memo-one_hand_memoTests.a in Frameworks */,
+				B4EFA462CB04F134236653DB /* libPods-memo-memoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56763A3514AB8C38EFEE4EC2 /* libPods-one_hand_memo.a in Frameworks */,
+				56763A3514AB8C38EFEE4EC2 /* libPods-memo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4748A27BCB45B7F0CA5CDE /* libPods-one_hand_memo-tvOS.a in Frameworks */,
+				9A4748A27BCB45B7F0CA5CDE /* libPods-memo-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,20 +104,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65642554C1C8CE6F92F45D14 /* libPods-one_hand_memo-tvOSTests.a in Frameworks */,
+				65642554C1C8CE6F92F45D14 /* libPods-memo-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* one_hand_memoTests */ = {
+		00E356EF1AD99517003FC87E /* memoTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* one_hand_memoTests.m */,
+				00E356F21AD99517003FC87E /* memoTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = one_hand_memoTests;
+			path = memoTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -128,7 +128,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* one_hand_memo */ = {
+		13B07FAE1A68108700A75B9A /* memo */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -139,7 +139,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = one_hand_memo;
+			name = memo;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -147,10 +147,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				334FA4499BEB79D2A47283E1 /* libPods-one_hand_memo.a */,
-				0796FC033CFFB05BF450ADA9 /* libPods-one_hand_memo-one_hand_memoTests.a */,
-				DF4CEF66128B0763A2A8BDBB /* libPods-one_hand_memo-tvOS.a */,
-				A30F232CFA1A9DFAB0D1EAF7 /* libPods-one_hand_memo-tvOSTests.a */,
+				334FA4499BEB79D2A47283E1 /* libPods-memo.a */,
+				0796FC033CFFB05BF450ADA9 /* libPods-memo-memoTests.a */,
+				DF4CEF66128B0763A2A8BDBB /* libPods-memo-tvOS.a */,
+				A30F232CFA1A9DFAB0D1EAF7 /* libPods-memo-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,14 +158,14 @@
 		7BD088B7C60B0E0183E780C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5DC8DDD636FC45498DC1702C /* Pods-one_hand_memo.debug.xcconfig */,
-				0095FB2E73C109639CAC36E1 /* Pods-one_hand_memo.release.xcconfig */,
-				370113B04DC537165E549387 /* Pods-one_hand_memo-one_hand_memoTests.debug.xcconfig */,
-				275DD77EF894423D576590B5 /* Pods-one_hand_memo-one_hand_memoTests.release.xcconfig */,
-				A2E599FAB6678DE67E56D33D /* Pods-one_hand_memo-tvOS.debug.xcconfig */,
-				B07FC3059BA2E655FB19FBD8 /* Pods-one_hand_memo-tvOS.release.xcconfig */,
-				0F7105C83B04FAA93C45ABBC /* Pods-one_hand_memo-tvOSTests.debug.xcconfig */,
-				283D1732252738227A7EB8AA /* Pods-one_hand_memo-tvOSTests.release.xcconfig */,
+				5DC8DDD636FC45498DC1702C /* Pods-memo.debug.xcconfig */,
+				0095FB2E73C109639CAC36E1 /* Pods-memo.release.xcconfig */,
+				370113B04DC537165E549387 /* Pods-memo-memoTests.debug.xcconfig */,
+				275DD77EF894423D576590B5 /* Pods-memo-memoTests.release.xcconfig */,
+				A2E599FAB6678DE67E56D33D /* Pods-memo-tvOS.debug.xcconfig */,
+				B07FC3059BA2E655FB19FBD8 /* Pods-memo-tvOS.release.xcconfig */,
+				0F7105C83B04FAA93C45ABBC /* Pods-memo-tvOSTests.debug.xcconfig */,
+				283D1732252738227A7EB8AA /* Pods-memo-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -184,9 +184,9 @@
 				D2CDDBF7261ED6C6002BEFCA /* NativeTextViewManager.m */,
 				D2CDDBEF261ED6AE002BEFCA /* NativeTextView.h */,
 				D2CDDBF0261ED6AE002BEFCA /* NativeTextView.m */,
-				13B07FAE1A68108700A75B9A /* one_hand_memo */,
+				13B07FAE1A68108700A75B9A /* memo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* one_hand_memoTests */,
+				00E356EF1AD99517003FC87E /* memoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7BD088B7C60B0E0183E780C4 /* Pods */,
@@ -199,10 +199,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* one_hand_memo.app */,
-				00E356EE1AD99517003FC87E /* one_hand_memoTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* one_hand_memo-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* one_hand_memo-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* memo.app */,
+				00E356EE1AD99517003FC87E /* memoTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* memo-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* memo-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,9 +210,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* one_hand_memoTests */ = {
+		00E356ED1AD99517003FC87E /* memoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "one_hand_memoTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "memoTests" */;
 			buildPhases = (
 				083A394CB5F42AFEAA3FDD01 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -226,14 +226,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = one_hand_memoTests;
-			productName = one_hand_memoTests;
-			productReference = 00E356EE1AD99517003FC87E /* one_hand_memoTests.xctest */;
+			name = memoTests;
+			productName = memoTests;
+			productReference = 00E356EE1AD99517003FC87E /* memoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* one_hand_memo */ = {
+		13B07F861A680F5B00A75B9A /* memo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "one_hand_memo" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "memo" */;
 			buildPhases = (
 				31A0F0E401E637D6F146D5C1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -248,14 +248,14 @@
 			);
 			dependencies = (
 			);
-			name = one_hand_memo;
-			productName = one_hand_memo;
-			productReference = 13B07F961A680F5B00A75B9A /* one_hand_memo.app */;
+			name = memo;
+			productName = memo;
+			productReference = 13B07F961A680F5B00A75B9A /* memo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* one_hand_memo-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* memo-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "one_hand_memo-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "memo-tvOS" */;
 			buildPhases = (
 				855ECED2552C77307984434D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -268,14 +268,14 @@
 			);
 			dependencies = (
 			);
-			name = "one_hand_memo-tvOS";
-			productName = "one_hand_memo-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* one_hand_memo-tvOS.app */;
+			name = "memo-tvOS";
+			productName = "memo-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* memo-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* one_hand_memo-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* memo-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "one_hand_memo-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "memo-tvOSTests" */;
 			buildPhases = (
 				6C55C08526B76678CB932895 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -287,9 +287,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "one_hand_memo-tvOSTests";
-			productName = "one_hand_memo-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* one_hand_memo-tvOSTests.xctest */;
+			name = "memo-tvOSTests";
+			productName = "memo-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* memo-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -318,7 +318,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "one_hand_memo" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "memo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -331,10 +331,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* one_hand_memo */,
-				00E356ED1AD99517003FC87E /* one_hand_memoTests */,
-				2D02E47A1E0B4A5D006451C7 /* one_hand_memo-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* one_hand_memo-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* memo */,
+				00E356ED1AD99517003FC87E /* memoTests */,
+				2D02E47A1E0B4A5D006451C7 /* memo-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* memo-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -403,7 +403,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-one_hand_memo-one_hand_memoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-memo-memoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -430,7 +430,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-one_hand_memo-one_hand_memoTests/Pods-one_hand_memo-one_hand_memoTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-memo-memoTests/Pods-memo-memoTests-frameworks.sh",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -439,7 +439,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-one_hand_memo-one_hand_memoTests/Pods-one_hand_memo-one_hand_memoTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memo-memoTests/Pods-memo-memoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		31A0F0E401E637D6F146D5C1 /* [CP] Check Pods Manifest.lock */ = {
@@ -457,7 +457,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-one_hand_memo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-memo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -470,7 +470,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-one_hand_memo/Pods-one_hand_memo-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-memo/Pods-memo-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -479,7 +479,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-one_hand_memo/Pods-one_hand_memo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memo/Pods-memo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6C55C08526B76678CB932895 /* [CP] Check Pods Manifest.lock */ = {
@@ -497,7 +497,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-one_hand_memo-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-memo-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -519,7 +519,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-one_hand_memo-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-memo-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -532,7 +532,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-one_hand_memo-one_hand_memoTests/Pods-one_hand_memo-one_hand_memoTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-memo-memoTests/Pods-memo-memoTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -541,7 +541,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-one_hand_memo-one_hand_memoTests/Pods-one_hand_memo-one_hand_memoTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memo-memoTests/Pods-memo-memoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F607C787F75CCF390FA8B316 /* [CP] Embed Pods Frameworks */ = {
@@ -550,7 +550,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-one_hand_memo/Pods-one_hand_memo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-memo/Pods-memo-frameworks.sh",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -559,7 +559,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-one_hand_memo/Pods-one_hand_memo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memo/Pods-memo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -607,7 +607,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* one_hand_memoTests.m in Sources */,
+				00E356F31AD99517003FC87E /* memoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +635,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* one_hand_memoTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* memoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,12 +644,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* one_hand_memo */;
+			target = 13B07F861A680F5B00A75B9A /* memo */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* one_hand_memo-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* memo-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -657,14 +657,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 370113B04DC537165E549387 /* Pods-one_hand_memo-one_hand_memoTests.debug.xcconfig */;
+			baseConfigurationReference = 370113B04DC537165E549387 /* Pods-memo-memoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = one_hand_memoTests/Info.plist;
+				INFOPLIST_FILE = memoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -674,17 +674,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/one_hand_memo.app/one_hand_memo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memo.app/memo";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 275DD77EF894423D576590B5 /* Pods-one_hand_memo-one_hand_memoTests.release.xcconfig */;
+			baseConfigurationReference = 275DD77EF894423D576590B5 /* Pods-memo-memoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = one_hand_memoTests/Info.plist;
+				INFOPLIST_FILE = memoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -694,19 +694,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/one_hand_memo.app/one_hand_memo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memo.app/memo";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DC8DDD636FC45498DC1702C /* Pods-one_hand_memo.debug.xcconfig */;
+			baseConfigurationReference = 5DC8DDD636FC45498DC1702C /* Pods-memo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = one_hand_memo/Info.plist;
+				INFOPLIST_FILE = memo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -714,7 +714,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = one_hand_memo;
+				PRODUCT_NAME = memo;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -723,12 +723,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0095FB2E73C109639CAC36E1 /* Pods-one_hand_memo.release.xcconfig */;
+			baseConfigurationReference = 0095FB2E73C109639CAC36E1 /* Pods-memo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = one_hand_memo/Info.plist;
+				INFOPLIST_FILE = memo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -736,7 +736,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = one_hand_memo;
+				PRODUCT_NAME = memo;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -744,7 +744,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2E599FAB6678DE67E56D33D /* Pods-one_hand_memo-tvOS.debug.xcconfig */;
+			baseConfigurationReference = A2E599FAB6678DE67E56D33D /* Pods-memo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -755,14 +755,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "one_hand_memo-tvOS/Info.plist";
+				INFOPLIST_FILE = "memo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.one_hand_memo-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.memo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -772,7 +772,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B07FC3059BA2E655FB19FBD8 /* Pods-one_hand_memo-tvOS.release.xcconfig */;
+			baseConfigurationReference = B07FC3059BA2E655FB19FBD8 /* Pods-memo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -783,14 +783,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "one_hand_memo-tvOS/Info.plist";
+				INFOPLIST_FILE = "memo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.one_hand_memo-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.memo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -800,7 +800,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F7105C83B04FAA93C45ABBC /* Pods-one_hand_memo-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 0F7105C83B04FAA93C45ABBC /* Pods-memo-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -810,24 +810,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "one_hand_memo-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "memo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.one_hand_memo-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.memo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/one_hand_memo-tvOS.app/one_hand_memo-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memo-tvOS.app/memo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 283D1732252738227A7EB8AA /* Pods-one_hand_memo-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 283D1732252738227A7EB8AA /* Pods-memo-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -837,17 +837,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "one_hand_memo-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "memo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.one_hand_memo-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.memo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/one_hand_memo-tvOS.app/one_hand_memo-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memo-tvOS.app/memo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -968,7 +968,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "one_hand_memoTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "memoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -977,7 +977,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "one_hand_memo" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "memo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -986,7 +986,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "one_hand_memo-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "memo-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -995,7 +995,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "one_hand_memo-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "memo-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1004,7 +1004,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "one_hand_memo" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "memo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

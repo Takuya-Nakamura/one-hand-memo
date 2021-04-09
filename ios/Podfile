@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'one_hand_memo' do
+target 'memo' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'one_hand_memoTests' do
+  target 'memoTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -27,10 +27,10 @@ target 'one_hand_memo' do
 
 end
 
-target 'one_hand_memo-tvOS' do
-  # Pods for one_hand_memo-tvOS
+target 'memo-tvOS' do
+  # Pods for memo-tvOS
 
-  target 'one_hand_memo-tvOSTests' do
+  target 'memo-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

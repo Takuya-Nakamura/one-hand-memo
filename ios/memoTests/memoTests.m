@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface one_hand_memoTests : XCTestCase
+@interface memoTests : XCTestCase
 
 @end
 
-@implementation one_hand_memoTests
+@implementation memoTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

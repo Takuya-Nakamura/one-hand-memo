@@ -1,4 +1,4 @@
-package com.one_hand_memo;
+package com.takuya.nakamura.react.memo;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "one_hand_memo";
+    return "memo";
   }
 }
